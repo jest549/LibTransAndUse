@@ -1,0 +1,12 @@
+syntax="proto3";
+package MyTest;
+message TestMessage{
+    uint64 id=1;
+    uint32 state=2;
+    string name=3；
+}
+message AllMessage{
+    uint64 all_id=1;
+    uint32 all_state=2;
+   TestMessage testmsg=3;     
+}
