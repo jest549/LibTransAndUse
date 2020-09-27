@@ -5,6 +5,7 @@ message TestMessage{
     uint32 state=2;
     string name=3;
 }
+
 message AllMessage{
     uint64 all_id=1;
     uint32 all_state=2;

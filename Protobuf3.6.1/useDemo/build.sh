@@ -1,0 +1,1 @@
+g++ ./main.cpp ./MyTest.pb.cc  -I./ -I./protobuf -L./protobuf -lprotobuf -lpthread -pthread -std=c++11 -o TestProtobuf
